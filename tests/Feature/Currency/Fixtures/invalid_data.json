@@ -1,0 +1,26 @@
+{
+    "name": "Dados inválidos",
+    "request": {
+        "query": {
+        }
+    },
+    "response": {
+        "statusCode": 422,
+        "body": {
+            "error": {
+                "type": "VALIDATION_EXCEPTION",
+                "errors": {
+                    "from": [
+                        "O campo from é obrigatório."
+                    ],
+                    "to": [
+                        "O campo to é obrigatório."
+                    ],
+                    "amount": [
+                        "O campo Valor é obrigatório."
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Conversão válida de BRL => USD - R$ 5000,00",
+    "request": {
+        "query": {
+            "from": "BRL",
+            "to": "USD",
+            "amount": "5000.00"
+        }
+    },
+    "response": {
+        "statusCode": 200,
+        "body": {
+            "currency": {
+                "from": "BRL",
+                "to": "USD",
+                "values": {
+                    "to_convert": "R$\u00a05.000,00",
+                    "converted": "US$\u00a0927,15"
+                }
+            }
+        }
+    }
+}
